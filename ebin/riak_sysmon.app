@@ -12,7 +12,8 @@
   {applications, [
                   kernel,
                   stdlib,
-                  sasl
+                  sasl,
+                  os_mon
                  ]},
   {registered, []},
   {mod, {riak_sysmon_app, []}},
